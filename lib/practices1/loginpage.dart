@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/homepage1.dart';
+import 'package:flutter_application_1/assignment/homepage1.dart';
+//import 'package:flutter_application_1/homepage1.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 class loginPage extends StatelessWidget {
@@ -50,7 +51,7 @@ class loginPage extends StatelessWidget {
                   if (username == Usernamecontroller.text &&
                       password == passwordcontroller.text) {
                     Navigator.of(context).push(
-                        MaterialPageRoute(builder: (context) => homepage()));
+                        MaterialPageRoute(builder: (context) => Homepage()));
                     Usernamecontroller.text = "";
                     passwordcontroller.text = "";
                   } else {
