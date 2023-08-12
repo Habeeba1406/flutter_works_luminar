@@ -16,7 +16,7 @@ class gridui extends StatelessWidget {
     "assets/icons/images/earrings.jpg",
     "assets/icons/images/socks.jpg",
     "assets/icons/images/specks.webp",
-    "assetsicons/images/shoes.webp",
+    "assets/icons/images/shoes.webp",
   ];
   var name = [
     "Bag",
@@ -65,7 +65,7 @@ class gridui extends StatelessWidget {
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(5),
                                   image: DecorationImage(
-                                    fit: BoxFit.contain,
+                                    fit: BoxFit.fill,
                                     image: AssetImage(image[index]),
                                   )),
                             ),
