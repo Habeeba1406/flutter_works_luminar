@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/practices1/loginpage.dart';
+import 'package:flutter_application_1/practices/loginpage.dart';
 
 ///import 'loginpage.dart';
 

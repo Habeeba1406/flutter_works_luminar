@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/assignment/homepage1.dart';
-import 'package:flutter_application_1/practices1/homepage1.dart';
+import 'package:flutter_application_1/practices/homepage1.dart';
 
 ///import 'package:flutter_application_1/assingment/signup1.dart';
 import 'signup1.dart';
