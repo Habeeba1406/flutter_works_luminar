@@ -17,12 +17,14 @@ class MyApp extends StatelessWidget {
     Playlist(
       title: "Playlist 1",
       artist: "Artist 1",
-      coverUrl: "https://example.com/cover1.jpg",
+      coverUrl:
+          "https://upload.wikimedia.org/wikipedia/en/3/3c/Armani_White_-_Billie_Eilish.png",
     ),
     Playlist(
       title: "Playlist 2",
       artist: "Artist 2",
-      coverUrl: "https://example.com/cover2.jpg",
+      coverUrl:
+          "https://c.saavncdn.com/editorial/logo/ArijitSadSongs_20211117063136.jpg",
     ),
     // Add more playlists...
   ];
