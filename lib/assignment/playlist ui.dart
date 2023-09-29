@@ -68,13 +68,14 @@ class playlistState extends State<playlist> {
             SliverGrid(
                 delegate: SliverChildBuilderDelegate(
                     (context, index) => Container(
+                          height: 115,
                           decoration: BoxDecoration(color: Colors.black),
                           child: Card(
                             shadowColor: Colors.transparent,
                             child: Image.network(
                               image[index],
-                              height: 25,
-                              width: 30,
+                              height: 20,
+                              width: 20,
                               fit: BoxFit.cover,
                             ),
                           ),
