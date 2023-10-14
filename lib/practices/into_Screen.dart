@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/assignment/login1.dart';
-import 'package:flutter_application_1/assignment/splash%20page.dart';
+import 'package:flutter_application_1/assignment/splash.dart';
+//import 'package:flutter_application_1/assignment/splash%20page.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
 void main() {

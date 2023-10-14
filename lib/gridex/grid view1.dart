@@ -16,15 +16,23 @@ class grid_view1 extends StatelessWidget {
       ),
       body: GridView(
           gridDelegate:
+              SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+          // gridDelegate:
 
-              /// SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
-              SliverGridDelegateWithMaxCrossAxisExtent(maxCrossAxisExtent: 50),
+          /// SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+          //
+          //  SliverGridDelegateWithMaxCrossAxisExtent(maxCrossAxisExtent: 2),
           children: List.generate(
-              100,
+              10,
               (index) => const Card(
-                    color: Colors.deepPurpleAccent,
+                    //color: Colors.deepPurpleAccent,
                     child: Center(
-                      child: Icon(Icons.ac_unit_rounded),
+                      child: Image(
+                        image: AssetImage(
+                          "assets/icons/images/profile1.jpeg",
+                        ),
+                        alignment: Alignment(40, 40),
+                      ),
                     ),
                   ))),
     );

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:practice/listview2.dart';
-import 'package:practice/login.dart';
-import 'package:practice/registration.dart';
+// import 'package:practice/listview2.dart';
+// import 'package:practice/login.dart';
+// import 'package:practice/registration.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -18,10 +18,10 @@ class BottomNavBar extends StatefulWidget {
 class _BottomNavBarState extends State<BottomNavBar> {
   int index = 0;
   var screens = [
-    LoginPage(),
-    Register(),
-    ListView(),
-    ListView2(),
+    // LoginPage(),
+    // Register(),
+    // ListView(),
+    // ListView2(),
   ];
 
   @override

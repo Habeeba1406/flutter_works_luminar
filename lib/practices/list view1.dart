@@ -35,8 +35,7 @@ class listview1 extends StatelessWidget {
               title: const Text("pizza"),
               subtitle: const Text("\$300"),
               trailing: const Icon(Icons.shopping_cart),
-              leading:
-                  Image.asset("assets/icons/images/1620px-Pizza-3007395.jpg"),
+              leading: Image.asset("assets/icons/images/burger.jpg"),
             ),
           ),
           Card(
