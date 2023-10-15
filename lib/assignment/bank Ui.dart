@@ -153,7 +153,6 @@ class bankUi extends StatelessWidget {
               ),
               childCount: 6,
             ),
-            //gridDelegate:SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3)
           ),
         ],
       ),
